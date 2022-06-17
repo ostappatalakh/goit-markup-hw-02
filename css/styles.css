@@ -93,7 +93,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
-
+    cursor: pointer;
 }
 
 .btn-hero:hover {
@@ -120,7 +120,6 @@ body {
 }
 
 .benefits-description {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
 }
@@ -153,7 +152,6 @@ body {
 }
 
 .stuff-position {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -170,7 +168,6 @@ body {
 
 .footer-address {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71px;
     color: var(--color-white);
@@ -179,11 +176,15 @@ body {
 
 .footer-contacts {
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     text-decoration: none;
     color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-contacts:hover,
+.footer-contacts:focus {
+   color: var(--accent-color-main); 
 }
 
 /* body portfolio */
@@ -195,7 +196,8 @@ body {
 
 .nav-filter-btn {
     color: var(--text-color-black);
-    background-color: #F5F4FA;;
+    background-color: #F5F4FA;
+    cursor: pointer;
 }
 
 .nav-filter-btn:active,
@@ -216,7 +218,6 @@ body {
 
 .project-title {
     text-decoration: none;
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -227,8 +228,6 @@ body {
 .project-type,
 .project-description {
     text-decoration: none;
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
 }
