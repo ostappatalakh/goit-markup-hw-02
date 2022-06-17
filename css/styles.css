@@ -1,0 +1,234 @@
+:root{
+    --text-color-black: #212121;
+    --color-white: #FFFFFF;
+    --text-color-gray: #757575;
+    --text-color-contacts-footer: rgba(255,255,255,0.6);
+    --accent-color-main: #2196F3;
+
+}
+
+/* all pages */
+body {
+   background-color: E5E5E5;
+   font-family: Roboto, sans-serif; 
+   letter-spacing: 0.03em;
+   color: var(--text-color-gray);
+}
+
+/* Header */
+.page-header {
+    background-color: var(--color-white);
+}
+
+.logo {
+    font-family: raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+}
+
+.logo-web {
+    color: var(--accent-color-main);
+}
+
+.logo-studio {
+    color: var(--text-color-black);
+}
+
+.site-nav {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+    color: var(--text-color-black);
+}
+
+.site-nav-link {
+    text-decoration: none;
+    color: var(--text-color-black);
+}
+
+.site-nav-link:hover {
+    color: var(--accent-color-main);
+}
+
+.site-nav-link:focus {
+    color: var(--accent-color-main);
+}
+
+.site-nav-contacts {
+    color: var(--text-color-gray);
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.current,
+.site-nav-contacts:focus,
+.site-nav-contacts:hover {
+    color: var(--accent-color-main);
+}
+
+
+/* body index */
+.hero {
+    width: 1600px;
+    height: 600px;
+    background-color: #2F303A;
+}
+
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-white);
+}
+
+.btn-hero {
+    background-color: var(--accent-color-main);
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+}
+
+.btn-hero:hover {
+    background-color: #188CE8;
+    color: var(--color-white);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;    
+}
+
+/* benefits */
+
+.benefits-titles {
+    color: transparent;
+    font-size: 0;
+}
+
+.benefits-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--text-color-black);
+}
+
+.benefits-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+}
+
+/* our-jobs */
+.our-jobs-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--text-color-black);
+}
+/* our-jobs-description */
+
+/* stuff */
+.stuff-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--text-color-black);
+}
+
+.stuff-name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    color: var(--text-color-black);
+}
+
+.stuff-position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+}
+
+/* footer */
+.page-footer {
+    background-color: #2F303A;
+}
+
+.logo-studio-footer {
+    color: var(--color-white);
+}
+
+.footer-address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71px;
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+.footer-contacts {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* body portfolio */
+.nav-filter {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.62;
+}
+
+.nav-filter-btn {
+    color: var(--text-color-black);
+    background-color: #F5F4FA;;
+}
+
+.nav-filter-btn:active,
+.nav-filter-btn:hover,
+.nav-filter-btn:focus {
+    color: var(--color-white);
+    background-color: var(--accent-color-main);
+}
+
+.projects{
+    text-decoration: none;
+}
+
+.project-link {
+    text-decoration: none;
+    color: var(--text-color-gray);
+}
+
+.project-title {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--text-color-black);
+}
+
+.project-type,
+.project-description {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+}
