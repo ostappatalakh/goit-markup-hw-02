@@ -15,6 +15,10 @@ body {
    color: var(--text-color-gray);
 }
 
+ul {
+    list-style: none;
+}
+
 /* Header */
 .page-header {
     background-color: var(--color-white);
@@ -39,7 +43,7 @@ body {
 .site-nav {
     font-size: 14px;
     font-weight: 500;
-    line-height: 1.17;
+    line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color-black);
 }
@@ -88,11 +92,13 @@ body {
 }
 
 .btn-hero {
+    font-family: Roboto, sans-serif;
     background-color: var(--accent-color-main);
     color: var(--color-white);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
@@ -121,7 +127,7 @@ body {
 
 .benefits-description {
     font-size: 14px;
-    line-height: 1.71px;
+    line-height: 1.71;
 }
 
 /* our-jobs */
@@ -195,8 +201,13 @@ body {
 }
 
 .nav-filter-btn {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
     color: var(--text-color-black);
     background-color: #F5F4FA;
+    letter-spacing: 0.03em;
     cursor: pointer;
 }
 
